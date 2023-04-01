@@ -1,2 +1,2 @@
-# clone-firebox
-Clone de Firebox con HTML y CSS
+# clone-firefox
+Clone de Firefox con HTML y CSS

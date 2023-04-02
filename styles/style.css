@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9fb;
+    padding: 30px;
+    font-family: 'Segoe UI', sans-serif;
+}
+.logo-and-brand{
+    display: flex;
+}
+.firefox-logo{
+    width: 80px;
+    height: auto;
+}
+.brand{
+    font-size: 46px;
+}
+.search-wrapper{
+    background-color: rgba(249, 249, 249, 0.95);
+    width: 100%;
+    height: 100px;
+    padding: 25px 0;
+    margin-bottom: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+form{
+    width: 720px;
+    position: relative;
+    margin: auto;
+}
+.ddg-logo{
+    width: 40px;
+    position: absolute;
+    top: 11px;
+    left: 15px;
+    padding-right: 15px;
+    background: transparent;
+}
+.search-bar{
+    width: 100%;
+    padding: 15px;
+    padding-left: 70px;
+    height: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgb(58, 57, 68, 0.2);
+    border: none;
+    font-size: 15px;
+}
+.search-bar::placeholder{
+    color: #000;
+    opacity: 0.5;
+}
+.search-bar:focus{
+    outline: 1px solid #0060DF;
+}
+.section-wrapper{
+    width: 966px;
+    padding: 10px;
+}
+.porcket-heading{
+    display: inline;
+    font-size:17px;
+    margin-right: 10px;
+}
+.link{
+    text-decoration: none;
+    color: #0060DF;
+    font-size: 13px;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.card-wrapper{
+    margin: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,350px);
+    grid-gap: 24px;
+}
+.card{
+    max-width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(58, 57, 68, 0.2);
+    position: relative;
+}
+span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.card-image{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.card-description{
+    padding: 15px;
+    
+}
